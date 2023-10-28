@@ -1,0 +1,2493 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.form-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+#navbarNav a{
+    color: rgba(255, 255, 255, 1);
+}
+.navbar-collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-of-phones{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.obj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-images{
+    width: 100vw;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    color: #6E6E73;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+padding-bottom: 10px;
+}
+.price{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+padding-bottom: 10px;
+}
+.highlight{
+    text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-bottom: 20px;
+}
+.buy{
+    display: flex;
+width: 61.203px;
+height: 36px;
+padding: 8px 15.6px 8px 16px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 980px;
+background: #0071E3;
+border: none;
+color: white;
+}
+.learn{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding-bottom: 50px;
+}
+.product-images-1{
+    width: 100vw;
+    height: 1000px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-top: -70px;
+}
+.price-1{
+    color: #F5F5F7;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+padding-bottom: 15px;
+}
+.highlight-1{
+    text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-bottom: 15px;
+}
+.image-1{
+    padding-top: 80px;
+}
+.product-images-2{
+    width: 100vw;
+    height: 830px;
+    background-color: #fff;
+    padding-top: 30px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.love{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.love h2{
+    text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-bottom: 15px;
+}
+.image{
+    padding-left: 180px;
+}
+.product-images-3{
+    height: 814px;
+    display: flex;
+    justify-content: center;
+    background-image: url("./assests/figure\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+#tour{
+    color: #FFF;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: 0.216px;
+}
+#mobile{
+    color: #FFF;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+
+#watch{
+    border-radius: 980px;
+    height: 36px;
+    width: 142px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+    border: none;
+}
+#mobile-versions{
+    position: relative;
+    top:430px;
+    left: -500px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+.tables{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+padding-top: 20px;
+}
+.buttons-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.buy-1{
+    display: flex;
+width: 61.203px;
+height: 36px;
+padding: 8px 15.6px 8px 16px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 980px;
+background: #0071E3;
+border: none;
+color: white;
+}
+.learn-1{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+}
+.image-2{
+    width: 151px;
+height: 257px;
+flex-shrink: 0;
+}
+.image-3{
+    width: 50px;
+height: 14px;
+flex-shrink: 0;
+padding-bottom: 15px
+}
+.image-4{
+    width: 98px;
+height: 20px;
+flex-shrink: 0;
+}
+.new-1{
+    color: #BF4800;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+letter-spacing: -0.12px;
+}
+#right-phone{
+    text-align: center;
+    color: #1D1D1F;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+margin-top: 116px;
+}
+table td{
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+}
+table th{
+    width: 335px;
+    text-align: center;
+}
+table{
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comparision a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+}
+.comparision{
+    display: flex;
+width: 100vw;
+justify-content: center;
+align-items: center;
+gap: 40.547px;
+padding-bottom: 20px;
+}
+.wow{
+    width: 90vw;
+    height: 587px;
+    background-color: #01012A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    /* padding-bottom: 300px; */
+}
+.give-wow{
+    color: #FFF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 100.009px; /* 111.121% */
+letter-spacing: -0.27px;
+}
+.wow-background{
+    background-color: #F5F5F7;
+    width: 100vw;
+    height: 10800px;
+    padding: 30px;
+}
+#get-more{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 107.143% */
+letter-spacing: -0.28px;
+}
+.shop-holiday{
+    color: #2997FF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+.WOW-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ways-to-buy{
+    width: 90vw;
+    height: 703px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+.different-ways h2{
+    margin-top: 70px;
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 107.143% */
+letter-spacing: -0.28px;
+margin-top: 90px;
+/* padding-top: 40px; */
+}
+.different-ways{
+    background-color: #F5F5F7;
+}
+.Special{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: 0.216px;
+padding-top: 80px;
+}
+.Save{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+width: 50%;
+margin: auto;
+}
+.text-1{
+    color: #6E6E73;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+width: 90%;
+}
+.titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deal{
+width: 190.797px;
+height: 56px;
+padding: 18px 30.6px 18px 31px;
+border-radius: 980px;
+background: #0071E3;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ .deal .btn{
+    color: #FFF;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 117.648% */
+letter-spacing: -0.374px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.color-text{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+margin-top: 50px;
+}
+.color-blue{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+}
+.card-1{
+width: 675px;
+height: 751px;
+background: #FFF;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:10px;
+}
+.card-2{
+    width: 675px;
+    height: 751px;
+    background: #FFF;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.sample-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.huge-text{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+width: 80%;
+padding-top: 40px;
+}
+.tiny-text{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+width: 80%;
+padding-top: 10px;
+}
+.card-1 img{
+    margin-top: 60px;
+}
+.huge-text-1{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+width: 70%;
+padding-top: 40px;
+}
+.tiny-text-1{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+width: 70%;
+}
+.card-2 img{
+    margin-top: 70px;
+}
+.image-with-text{
+    background-image: url("https://s3-alpha-sig.figma.com/img/ba8b/5575/dc19e54a58774d200aef30b2f89eb562?Expires=1699228800&Signature=hmK8yiJpa0GoaSMAKUndSaDLFoqk2dmgBF5EC7vF08O6h9XprLvHWi4EcPot0PeFIMn1~cwvKErz-BRVF9HwNSFMiyyzkOuOSqpu9zSpeaILfcUbfEJaaL4jmpjpUhMgnTetqS3rDtV-Xmp7XTqOInUJzwFoyH~JZIqkipLcb13ZDvf1i7RGAKH4oW9vZc7U1Qw3ajKoNYcPnIfrweuFj5b0W9lyoNts7WNJtchs6ZZL6S-HL72bsx0rv0LADBVL9PW1nE4IYyxRdPLs23nEpx-q9wCZ14yVVi5B7QRL~sV7sO62XrKJPTbNNFv8uW6XYkc7WdKtQPoZORIA1fYeBg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    width: 90vw;
+    margin: auto;
+    height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why-apple{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+width: 40%;
+}
+.next-para{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+width: 33%;
+}
+.Featured-Accessories h2{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 107.143% */
+letter-spacing: -0.28px;
+margin-top: 50px;
+}
+.box{
+    width: 90vw;
+    height: 530px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.MagSafe{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+.snap{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+width: 45%;
+}
+.shop-link{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+.Mag-Safe-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    width: 90vw;
+    height: 530px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Air{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+.Attach{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+width: 80%;
+}
+.box-2{
+    width: 90vw;
+    height: 707px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Magic{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+width: 55%;
+margin:auto;
+}
+#shop-all{
+    color: #06C;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32.002px; /* 133.341% */
+letter-spacing: 0.216px;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 50px;
+}
+.specifications{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    margin-top: 80px;
+}
+.templates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.templates h5{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+.templates p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+#you{
+    width: 50%;
+}
+#have{
+    width: 60%;
+}
+#speciality{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 107.143% */
+letter-spacing: -0.28px;
+margin-top: 70px;
+}
+.box-3{
+    background-image: url("https://s3-alpha-sig.figma.com/img/10f8/ec3b/c031a6e25c67e102a5c7e809c76bbf5c?Expires=1699228800&Signature=qUqSqnLdn6kUOAuy1DSDO1d4w~wLsIVLY4HuYbDYHqAp3xIJiFTTUhTz3fNnIMCDuSiVYL3Z0sOCF2vJq5hYXyK28SPgeytbbVqyIk3qxxhL4HyD444MYcnQpNRhCU2djnzAjQ953Lugyn4sjrpPqKAsy2hWCbqea--xJdwoWT5XCKpJ24vuirce7mzJ6-heyPBYj75XoDwJTx5TC2yrDy9JV6DsqS-pEtAsgR48ZLmHh4XWzJbV2S0wwCXvH4U4OHwkuN7-T66V4tWmWkNVLQjFW3SGLCQ2jJ-HAj2i0VGOyTvEH~xBEOg12~yZYP0wO13ViWTrovw3YWxvqusoAw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+    width: 90vw;
+    height: 600px;
+}
+#IOS{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+padding-top: 85px;
+}
+#powerful{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+.ios-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-4{
+    width: 675px;
+    height: 689px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.switch-text{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px; /* 108.349% */
+    letter-spacing: -0.144px;
+    width: 65%;
+    margin:auto;
+    padding-top: 20px;
+}
+#switch-learn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.box-5{
+    width: 90vw;
+    height: 609px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bundle{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 114.286% */
+letter-spacing: 0.196px;
+width: 60%;
+}
+.box-5 a{
+    text-decoration: none;
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+.One-apple{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap:20px;
+}
+.card-3{
+    width: 660px;
+    height: 651px;
+    background: #090A0E;;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    padding-top: 67px;
+    }
+    .devil-playlist{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .chill{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .card-4{
+        width: 660px;
+        height: 651px;
+        background: #FFF;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+        padding-top: 67px;
+    }
+    .music-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .apple-tv{
+        color: #F5F5F7;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+width: 50%;
+    }
+.card-3 a{
+    color: #2997FF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+.links-1{
+    display: flex;
+    gap:20px;
+}
+.pause{
+    position: relative;
+    left: 280px;
+    padding-top: 20px;
+}
+.popularity{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+width: 50%;
+}
+.card-4 a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+.chill{
+    padding-top: 65px;
+}
+.News{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.card-5{
+    width: 675px;
+    height: 650px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/6735/3005/ab6658b909e3f0478e274bc576c0a432?Expires=1699228800&Signature=Mi6C-oLLS2ICKIEsnf3e1UKC9uj5bOXWY38mlNAekhO5GqXXB0iGwrcPx8bxWqnBO2tyV~5upls3lI1htAHaTHGr~Y4bNhuNPUiry1vv5XpD2DEJJkgURFnMr40JXkHMZvWa4a5X7oEP9H1Xq0wh6PiN-dJD-OVXgvOaiUzBwBokcaThp2nH2XbRg6Z3CIW77l-fDBmnhEfdDbbXhwM4AmSLqhbg8RvcxD6q-jJ0DJ46w3Z5f3zDCHAZjl40MG0~uk6xiRhTld1IDpsW51Co6lZP6gm-KhCH5UQnJofPsx7aSOGnz~qSs7Xm0WM8ECKvB3KtvAg1fJp8lKZoNFDZBA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+
+}
+.card-6{
+    width: 675px;
+    height: 650px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/7c04/05ac/6089597b68b38d94eee705c02458fe0c?Expires=1699228800&Signature=CNih8j5BLLL~YC4vepNOheMAoJtw9VtVA~CgXnAagYFJvfFdfJCA9v0YD6qRKSyHjiawOg1ZGocF-OHIOkPuAtclKnAHI97dRfnphGNOb32weidiJSV00cHZiSTHo0b2dZXBNPf-sLlCCwkeOFTx~-~vLRBYJLkTjl5T3l9T2aUmD8PtmnHYeoRm7G5LptbFuwNyr~7GOxHqtzj4gU6PPNospc~zdo-Y6xgULyUGgPMu3vkdFQvPqUzMujdQ9iOfxDMT7XOutGrmGcvRXS3LvWPcAq5cu5sjZdrFhR-gFVKkwC-1H1aaCUmr18W0bglN5EpQPJb0MDr4PET~HNx-zQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.card-5 p{
+    color: #F5F5F7;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+width: 60%;
+}
+.super-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.super-text a{
+    color: #F5F5F7;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+.super-text-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.super-text-1 a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+.super-text-1 p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+width: 60%;
+}
+.gift-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.card-7{
+    width: 660px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-8{
+    width: 660px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gift-card-text p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+width: 50%;
+}
+.gift-card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.gift-card-text a{
+    text-decoration: none;
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+padding-bottom: 40px;
+}
+#for-everything{
+    width: 60%;
+}
+.box-6{
+    width: 90vw;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.text-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Introducing{
+    width: 50%;
+}
+.text-2 h3{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+.text-2 p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+.text-2 a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+footer {
+    width: 90%;
+    height: 500px;
+    background: #F5F5F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .footer-main {
+    width: 1070px;
+  }
+  .footer-detail {
+    font-size: .7rem;
+    color: #95a5a6;
+    padding: 20px 0;
+    border-bottom: 1px solid #bdc3c7;
+  }
+  .footer-detail a {
+    color: #2c3e50;
+    text-decoration: none;
+  }
+  .footer-detail a:hover {
+    text-decoration: underline;
+  }
+  .footer-welcome {
+    display: flex;
+    margin: 20px 0;
+    font-size: .8rem;
+    color: #34495e;
+  }
+  .footer-welcome i {
+    margin-right: 10px;
+  }
+  .footer-ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-ul ul {
+    list-style: none;
+  }
+  .footer-ul ul li {
+    margin: 7px 0;
+  }
+  .footer-ul ul li h4 {
+    color: #1D1D1F;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; /* 133.337% */
+letter-spacing: -0.12px;
+  }
+  .footer-ul ul li a {
+    color: #424245;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+text-decoration: none;
+  }
+  .footer-ul ul li a:hover {
+    text-decoration: underline; 
+  }
+  #mt {
+    padding-top: 30px;
+  }
+  .footer-contact {
+    border-bottom: 1px solid #bdc3c7;
+    padding: 12px 0;
+    margin: 10px 0;
+    color: #6E6E73;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+  }
+  .footer-contact a {
+    color: #06c;
+    text-decoration: none;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+  }
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+  .footer-copyright {
+    color: #7f8c8d;
+    font-size: .7rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-copyright ul {
+    display: flex;
+    list-style: none;
+    width: auto;
+  }
+  .footer-copyright ul li {
+    margin: 0 10px;
+  }
+  .footer-copyright ul li a {
+    color: #7f8c8d;
+  }
+  .footer-copyright ul li a:hover {
+    text-decoration: underline; 
+  }
+  .vr {
+    height: 15px;
+    width: 1px;
+    background: #bdc3c7;
+  }
+  .footer-lang {
+    display: flex;
+  }
+  .footer-lang p {
+    margin: 0 10px;
+  }
+  
+@media screen and (max-width:480px){
+    .form-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    #navbarNav a{
+        color: rgba(255, 255, 255, 1);
+    }
+    .navbar-collapse{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list-of-phones{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        padding-bottom: 113px;
+        gap: 20px;
+        padding-left: 20px;
+    }
+     .product-images{
+        width: 100vw;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -90px;
+    }
+    .product-images img{
+        width: 100vw;
+    }
+    .iPhone14{
+        width: 100px;
+        height: 35px;
+        flex-shrink: 0;
+    }
+    .product-images-1{
+        width: 100vw;
+        height: 800px;
+        background: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+    .product-images-1 img{
+        width: 100%;
+    }
+     .iPhone13{
+        width: 140px;
+        height: 35px;
+        flex-shrink: 0;
+     }
+     .product-images-2{
+        width: 100vw;
+        height: 830px;
+        background-color: #fff;
+        padding-top: 30px;
+    }
+    .love{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .love h2{
+        text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px; /* 108.349% */
+    letter-spacing: -0.144px;
+    background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 15px;
+    }
+    .image{
+        padding-left: 180px;
+    }
+    .mobile img{
+        width: 90%;
+    }
+    .product-images-3{
+        height: 814px;
+        display: flex;
+        justify-content: center;
+        background-image: url("./assests/figure\ \(49\).svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 220px;
+    }
+    #tour{
+        color: white;
+    font-family: SF Pro Display;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; /* 116.667% */
+    letter-spacing: 0.216px;
+    }
+    #mobile{
+        color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 108.349% */
+    letter-spacing: -0.144px;
+    }
+    
+    #watch{
+        border-radius: 490px;
+        height: 25px;
+        width: 150px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        font-weight: 400;
+        border: none;
+        padding: 20px;
+    }
+    #mobile-versions{
+        position: relative;
+        top:100px;
+        left: -120px;
+    }
+    #right-phone{
+        text-align: center;
+        color: #1D1D1F;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px; /* 108.349% */
+    letter-spacing: -0.144px;
+   margin-top: -350px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top:10px;
+        /* padding-bottom: -20px; */
+    }
+    .tables{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    table td{
+        text-align:center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-collapse: collapse;
+    }
+    table th{
+        width: 135px;
+        text-align: center;
+    }
+    table{
+        margin-bottom: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wow{
+        width: 90vw;
+        height: 900px;
+        background-color: #01012A;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        /* align-items: center; */
+    }
+    .girl img{
+        width: 490px;
+        height:490px ;
+    }
+    .WOW-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wow-background{
+        background-color: #F5F5F7;
+        width: 100vw;
+        height: 13950px;
+        padding: 30px;
+    }
+    .give-wow{
+        color: #FFF;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.009px; /* 111.121% */
+    letter-spacing: -0.27px;
+    }
+    .shop-holiday{
+        color: #2997FF;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px; /* 138.1% */
+    letter-spacing: 0.231px;
+    }
+    .ways-to-buy{
+        width: 90vw;
+        height: 1103px;
+        background-color: white;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .different-ways h2{
+        margin-top: 70px;
+        color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: -0.28px;
+    /* margin-top: 90px; */
+    /* padding-top: 40px; */
+    }
+    .different-ways{
+        background-color: #F5F5F7;
+    }
+    .Special{
+        color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: 0.216px;
+    padding-top: 80px;
+    }
+    .Save{
+        color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px; /* 108.349% */
+    letter-spacing: -0.144px;
+    width: 80%;
+    margin: auto;
+    }
+    .text-1{
+        color: #6E6E73;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px; /* 138.1% */
+    letter-spacing: 0.231px;
+    width: 80%;
+    }
+    .titles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .company{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sample-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-1{
+        width: 90vw;
+        height: 781px;
+        background: #FFF;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+        margin-top: 20px;
+        }
+        .card-2{
+            width: 90vw;
+            height: 751px;
+            background: #FFF;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:10px;
+        }
+        .huge-text{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52.008px; /* 108.349% */
+        letter-spacing: -0.144px;
+        width: 90%;
+        padding-top: 40px;
+        }
+        .tiny-text{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        width: 80%;
+        padding-top: 10px;
+        }
+        .card-1 img{
+            margin-top: 70px;
+            width: 70%;
+            /* height: 350px; */
+        }
+        .huge-text-1{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52.008px; /* 108.349% */
+        letter-spacing: -0.144px;
+        width: 80%;
+        padding-top: 40px;
+        }
+        .tiny-text-1{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        width: 70%;
+        }
+        .card-2 img{
+            margin-top: 60px;
+            width:100%;
+            /* height: 400px; */
+        }
+        .image-with-text{
+            display: none !important;
+        }
+        .Featured-Accessories h2{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; /* 107.143% */
+        letter-spacing: -0.28px;
+        margin-top: -0px;
+        }
+        .box{
+            width: 90vw;
+            height: 590px;
+            background-color: white;
+            margin: auto;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            padding-top: 50px;
+        }
+        .MagSafe{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52.008px; /* 108.349% */
+        letter-spacing: -0.144px;
+        }
+        .snap{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        width: 50%;
+        }
+        .shop-link{
+            color: #06C;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        text-decoration: none;
+        }
+        .Mag-Safe-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Featured-Accessories img{
+            width: 400px;
+            height: 400px;
+        }
+        .box-1{
+            width: 90vw;
+            height: 590px;
+            background-color: white;
+            margin: auto;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-div img{
+            width: 400px;
+            height: 400px;
+        }
+        .text-div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Air{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52.008px; /* 108.349% */
+        letter-spacing: -0.144px;
+        }
+        .Attach{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        width: 80%;
+        }
+        .box-2{
+            width: 90vw;
+            height: 600px;
+            background-color: white;
+            margin: auto;
+            margin-top: 30px;
+            padding-top: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .box-2 img{
+            width: 400px;
+            height: 400px;
+        }
+        .Magic{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52.008px; /* 108.349% */
+        letter-spacing: -0.144px;
+        width: 70%;
+        margin:auto;
+        }
+        .specifications{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 80vw;
+            margin: auto;
+            /* margin-top: 80px; */
+        }
+        .templates{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .templates h5{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        }
+        .templates p{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        }
+        #you{
+            width: 50%;
+        }
+        #have{
+            width: 60%;
+        }
+        #speciality{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; /* 107.143% */
+        letter-spacing: -0.28px;
+        margin-top: 70px;
+        }
+        .box-3{
+            background-image: url("https://s3-alpha-sig.figma.com/img/10f8/ec3b/c031a6e25c67e102a5c7e809c76bbf5c?Expires=1699228800&Signature=qUqSqnLdn6kUOAuy1DSDO1d4w~wLsIVLY4HuYbDYHqAp3xIJiFTTUhTz3fNnIMCDuSiVYL3Z0sOCF2vJq5hYXyK28SPgeytbbVqyIk3qxxhL4HyD444MYcnQpNRhCU2djnzAjQ953Lugyn4sjrpPqKAsy2hWCbqea--xJdwoWT5XCKpJ24vuirce7mzJ6-heyPBYj75XoDwJTx5TC2yrDy9JV6DsqS-pEtAsgR48ZLmHh4XWzJbV2S0wwCXvH4U4OHwkuN7-T66V4tWmWkNVLQjFW3SGLCQ2jJ-HAj2i0VGOyTvEH~xBEOg12~yZYP0wO13ViWTrovw3YWxvqusoAw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: auto;
+            margin-top: 50px;
+            width: 90vw;
+            height: 600px;
+        }
+        #IOS{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 10.008px; /* 108.349% */
+        letter-spacing: -0.144px;
+        /* padding-top: 85px; */
+        }
+        #powerful{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        }
+        .ios-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top:-50px;
+        }
+        .box-4{
+            width: 90vw;
+            height: 689px;
+            margin: auto;
+            margin-top: -320px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .switch-text{
+            color: #1D1D1F;
+            text-align: center;
+            font-family: SF Pro Display;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 52.008px; /* 108.349% */
+            letter-spacing: -0.144px;
+            width: 95%;
+            margin:auto;
+            padding-top: 20px;
+        }
+        #switch-learn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .switching-card img{
+            width: 95%;
+        }
+        .box-5{
+            width: 90vw;
+            height: 779px;
+            background-color: white;
+            margin: auto;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .bundle{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 114.286% */
+        letter-spacing: 0.196px;
+        width: 60%;
+        }
+        .box-5 a{
+            text-decoration: none;
+            color: #06C;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        }
+        .playlist img{
+            width: 450px;
+            height: 450px;
+        }
+        .One-apple{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .links{
+            display: flex;
+            gap:20px;
+        }
+        .card-3{
+            width: 90vw;
+            height: 581px;
+            background: #090A0E;;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:10px;
+            padding-top: 67px;
+            }
+            .devil-playlist img{
+                width: 100%;
+                height: 100%;
+            }
+            .card-4{
+                width: 90vw;
+                height: 581px;
+                background: #FFF;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap:10px;
+                padding-top: 67px;
+            }
+            .music-cards{
+                display: flex;
+                flex-direction:column ;
+                justify-content: center;
+                align-items: center;
+                gap:20px;
+                width: 90vw;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .apple-tv{
+                color: #F5F5F7;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        width: 50%;
+            }
+        .card-3 a{
+            color: #2997FF;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        text-decoration: none;
+        }
+        .links-1{
+            display: flex;
+            gap:20px;
+        }
+        .pause{
+            position: relative;
+            left: 280px;
+            padding-top: 20px;
+        }
+        .popularity{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        width: 50%;
+        }
+        .card-4 a{
+            color: #06C;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        text-decoration: none;
+        }
+        .chill{
+            /* padding-top: 65px; */
+            width: 100%;
+            height: 100%;
+        }
+        .News{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* gap:20px; */
+            width: 90vw;
+            margin-left: auto;
+            margin-right: auto;
+            /* margin-top: 30px; */
+        }
+        .card-5{
+            width: 90vw;
+            height: 750px;
+            background-image: url("https://s3-alpha-sig.figma.com/img/6735/3005/ab6658b909e3f0478e274bc576c0a432?Expires=1699228800&Signature=Mi6C-oLLS2ICKIEsnf3e1UKC9uj5bOXWY38mlNAekhO5GqXXB0iGwrcPx8bxWqnBO2tyV~5upls3lI1htAHaTHGr~Y4bNhuNPUiry1vv5XpD2DEJJkgURFnMr40JXkHMZvWa4a5X7oEP9H1Xq0wh6PiN-dJD-OVXgvOaiUzBwBokcaThp2nH2XbRg6Z3CIW77l-fDBmnhEfdDbbXhwM4AmSLqhbg8RvcxD6q-jJ0DJ46w3Z5f3zDCHAZjl40MG0~uk6xiRhTld1IDpsW51Co6lZP6gm-KhCH5UQnJofPsx7aSOGnz~qSs7Xm0WM8ECKvB3KtvAg1fJp8lKZoNFDZBA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .card-6{
+            width: 90vw;
+            height: 750px;
+            background-image: url("https://s3-alpha-sig.figma.com/img/7c04/05ac/6089597b68b38d94eee705c02458fe0c?Expires=1699228800&Signature=CNih8j5BLLL~YC4vepNOheMAoJtw9VtVA~CgXnAagYFJvfFdfJCA9v0YD6qRKSyHjiawOg1ZGocF-OHIOkPuAtclKnAHI97dRfnphGNOb32weidiJSV00cHZiSTHo0b2dZXBNPf-sLlCCwkeOFTx~-~vLRBYJLkTjl5T3l9T2aUmD8PtmnHYeoRm7G5LptbFuwNyr~7GOxHqtzj4gU6PPNospc~zdo-Y6xgULyUGgPMu3vkdFQvPqUzMujdQ9iOfxDMT7XOutGrmGcvRXS3LvWPcAq5cu5sjZdrFhR-gFVKkwC-1H1aaCUmr18W0bglN5EpQPJb0MDr4PET~HNx-zQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+            background-repeat: no-repeat;
+            background-size: contain; 
+            margin-top: -340px;
+        }
+        .card-5 p{
+            color: #F5F5F7;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        width: 60%;
+        }
+        .super-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 40px;
+        }
+        .super-text a{
+            color: #F5F5F7;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        text-decoration: none;
+        }
+        .super-text-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 40px;
+        }
+        .super-text-1 a{
+            color: #06C;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        text-decoration: none;
+        }
+        .super-text-1 p{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        width: 60%;
+        }
+        .gift-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:20px;
+            width: 90vw;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -350px;
+        }
+        .card-7{
+            width: 90vw;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-8{
+            width: 90vw;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .apples-card{
+            width: 100%;
+            padding-bottom: 40px;
+        }
+        .fitness-card{
+            width: 100%;
+            padding-bottom: 40px;
+        }
+        .gift-card-text p{
+            color: #1D1D1F;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        width: 50%;
+        }
+        .gift-card-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 60px;
+        }
+        .gift-card-text a{
+            text-decoration: none;
+            color: #06C;
+        text-align: center;
+        font-family: SF Pro Display;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29.001px; /* 138.1% */
+        letter-spacing: 0.231px;
+        padding-bottom: 40px;
+        }
+        #for-everything{
+            width: 60%;
+        }
+        .box-6{
+            width: 90vw;
+            height: 560px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-top: 30px;
+        }
+        .three-mobiles img{
+            width: 100%;
+            padding-top: 40px;
+        }
+        #Introducing{
+            width: 90%;
+        }
+        table{
+            margin-top: 50px;
+            width: 90vw;
+            border-top: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+         }
+         table td{
+             color: #424245;
+             font-family: SF Pro Text;
+             font-size: 12px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: 16px; /* 133.337% */
+             text-align: left;
+         }
+         table th{
+             color: #1D1D1F;
+         font-family: SF Pro Text;
+         font-size: 12px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 16px; /* 133.337% */
+         letter-spacing: -0.12px;
+         text-align: left;
+         }
+         .final-footer{
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             margin-top: -60px;
+             margin-left: -33px;
+             /* width: 90%; */
+         }
+         .final-footer p{
+             color: #424245;
+         font-family: SF Pro Text;
+         font-size: 12px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 16px; /* 133.337% */
+         }
+         .privacy-terms{
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             gap: 40px;
+         }
+         footer {
+    width: 90%;
+    height: 500px;
+    background: #F5F5F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .footer-main {
+    width: 1070px;
+  }
+  .footer-detail {
+    font-size: .7rem;
+    color: #95a5a6;
+    padding: 20px 0;
+    border-bottom: 1px solid #bdc3c7;
+  }
+  .footer-detail a {
+    color: #2c3e50;
+    text-decoration: none;
+  }
+  .footer-detail a:hover {
+    text-decoration: underline;
+  }
+  .footer-welcome {
+    display: flex;
+    margin: 20px 0;
+    font-size: .8rem;
+    color: #34495e;
+  }
+  .footer-welcome i {
+    margin-right: 10px;
+  }
+  .footer-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-ul ul {
+    list-style: none;
+  }
+  .footer-ul ul li {
+    margin: 7px 0;
+  }
+  .footer-ul ul li h4 {
+    color: #1D1D1F;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; /* 133.337% */
+letter-spacing: -0.12px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+  .footer-ul ul li a {
+    color: #424245;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+text-decoration: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+  .footer-ul ul li a:hover {
+    text-decoration: underline; 
+  }
+  #mt {
+    padding-top: 30px;
+  }
+  .footer-contact {
+    border-bottom: 1px solid #bdc3c7;
+    padding: 12px 0;
+    margin: 10px 0;
+    color: #6E6E73;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  .footer-contact a {
+    color: #06c;
+    text-decoration: none;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+  }
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+  .footer-copyright {
+    color: #7f8c8d;
+    font-size: .7rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-copyright ul {
+    display: flex;
+    list-style: none;
+    width: auto;
+  }
+  .footer-copyright ul li {
+    margin: 0 10px;
+  }
+  .footer-copyright ul li a {
+    color: #7f8c8d;
+  }
+  .footer-copyright ul li a:hover {
+    text-decoration: underline; 
+  }
+  .vr {
+    height: 15px;
+    width: 1px;
+    background: #bdc3c7;
+  }
+  .footer-lang {
+    display: flex;
+  }
+  .footer-lang p {
+    margin: 0 10px;
+  }
+         
+}
